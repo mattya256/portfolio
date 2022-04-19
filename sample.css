@@ -1,0 +1,21 @@
+#fixed {
+    position: fixed;	/* 要素の位置を固定する */
+    top: 0; /* 基準の位置を画面の一番上に指定する */
+    left: 0; /* 基準の位置を画面の一番左に指定する */
+    width: 250px; /* 幅を指定する */
+    border: 3px solid #becda9; /* ボーダーを指定する */
+    background-color: #d8e6d7
+}
+
+#right {
+    position:relative;
+    left: 300px; /* 基準の位置を画面の一番左からxに指定する */
+    background-color: #efdecb;
+}
+
+div.box {
+    width:200px; height:100px;
+    margin:5px; padding:10px; border:1px solid black;
+    background-color:rgb(159, 159, 159);
+    } 
+
