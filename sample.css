@@ -1,21 +1,160 @@
-#fixed {
+/* メニュー */
+#Menu {
     position: fixed;	/* 要素の位置を固定する */
     top: 0; /* 基準の位置を画面の一番上に指定する */
     left: 0; /* 基準の位置を画面の一番左に指定する */
     width: 250px; /* 幅を指定する */
     border: 3px solid #becda9; /* ボーダーを指定する */
-    background-color: #d8e6d7
+    background-color: #d8e6d7; /* 背景色 */
+    padding: 10px;/* 余白 */
 }
 
+.btn a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 200px;
+	height: 50px;
+	color: #333;
+	font-size: 18px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.btn a :hover {
+	color: #82e4ae;
+}
+
+.Menu_btn a span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #eece40;
+	border: 1px solid transparent;
+	z-index: 1;
+}
+
+
+.Menu_btn a::after {
+    display: flex;
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	right: -5px;
+	width: 100%;
+	height: 100%;
+	background-color: #777a0c;
+	z-index: 0;
+}
+
+.Menu_btn a span:hover {
+	background-color: #B99b00;
+	border: 1px solid #333;
+}
+
+/* メニュー以外の場所 */
 #right {
     position:relative;
     left: 300px; /* 基準の位置を画面の一番左からxに指定する */
     background-color: #efdecb;
+    width: 700px; /* 幅を指定する */
+    border: 3px solid #d8c9b7; /* ボーダーを指定する */
+    padding: 10px;/* 余白 */
 }
 
+/* box関連 */
+
+/* 初期設定 */
+:root{
+    --box-height:600px;
+    --box-width:550px;
+}
+
+/* 順に並べるために必要 */
+div.boxes{
+    width: var(--box-width);
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* 一つずつのboxを管理 */
 div.box {
-    width:200px; height:100px;
-    margin:5px; padding:10px; border:1px solid black;
-    background-color:rgb(159, 159, 159);
-    } 
+    position : relative;
+    background: #ccc;
+    border: 1px solid #000;
+    padding: 10px;
+    width: calc(var(--box-width) * 0.45);
+    height: 150px;
+    box-sizing: border-box;
+    margin:calc(var(--box-width) * 0.025); 
+    border-radius: 10px;
+}
+
+/* URLの表示について */
+.boxbtn a {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+    width: 50px;
+	height: 30px;
+    bottom: 3px;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+	font-size: 18px;
+	font-weight: 700;
+    text-decoration: none;
+	transition: 0.3s;
+    border-radius: 35px;
+}
+
+.boxbtn a :hover {
+	color: #efdecb;
+}
+
+.boxbtn a span{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+    bottom: 0px;
+	right: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #b7b6b2;
+	border: 1px solid transparent;
+	z-index: 1;
+	border-radius: 10px;
+}
+
+
+.boxbtn a::after {
+    display: flex;
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	right: -5px;
+	width: 100%;
+	height: 100%;
+	background-color: #8e8d88;
+	z-index: 0;
+    border-radius: 10px;
+} 
+
+.boxbtn a span:hover {
+	background-color: #72716b;
+} 
+
+
+
+
+
 
