@@ -1,21 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <link rel="stylesheet" href="sample.css">
+<script src="btn.js"></script>
 
-<body>
+<body onload="counter()">
     <div id="Menu">
     <h1>
         Masaki Fujita
     </h1>
         <div class="btn Menu_btn">
             <h2> 	
-                <a href="#profile"><span>プロフィール</span></a>
+                <input type="button" id="Ja_En_btn" value="ボタン" onclick="counter();">
+                <a href="#profile"><span><div id="T_0_0"></div></span></a>
+            </h2>
+            <h2> 	
+                <a href="#career"><span><div id="T_0_1"></div></span></a>
+            </h2>
+            <h2> 	
+                <a href="#trackrecord"><span><div id="T_0_2"></div></span></a>
             </h2>
             <h2>
-                <a href="#news"><span>ニュース</span></a>
+                <a href="#news"><span><div id="T_0_3"></div></span></a>
             </h2>
             <h2>
-                <a href="#address"><span>連絡先</span></a>
+                <a href="#address"><span><div id="T_0_4"></div></span></a>
             </h2>
         </div>
     </div>
@@ -31,13 +39,26 @@
 <div id = "right">
 <body>
     <h1>
-        Masaki Fujita's Port folio
+        藤田真伎　ポートフォリオ
     </h1>
     <a name="profile">
         <h1>	
-            プロフィール
+            <div id="T_1_0"></div>
         </h1>
+        <ul>
+            <li>所属:静岡大学大学院操業科学技術研究科情報学専攻</li>
+
+            <li>学年:修士一年</li>
+
+            <li>配属:狩野研究室</li>
+            
+            <li>専門:自然言語処理、機械学習、テキスト分類</li>
+        </ul>
     </a>
+    <a name="career">
+        <h1>	
+            <div id="T_1_1"></div>
+        </h1>
         <ul>
             <li>2018/03 静岡県立藤枝東高校卒業</li>
 
@@ -47,14 +68,32 @@
             
             <li>2022/04 静岡大学大学院総合技術研究科情報学専攻入学</li>
         </ul>
+    </a>
+    <a name="trackrecord">
+        <h1>	
+            <div id="T_1_2"></div>
+        </h1>
+        <ul>
+            <li>静岡大学情報学部主席卒業</li>
+
+            <li>国際会議ワークショップ査読付き論文(第一著者1回,第三著者1回)</li>
+
+            <li>国内学会論文</li>
+            
+            <li>AtCoder 最高レート
+                <a href="https://atcoder.jp/users/mattya256">
+                <span>787</span>
+            </a></li>
+        </ul>
+    </a>
     <a name="news">
         <h1>
-            ニュース
+            <div id="T_1_3"></div>
         </h1>
         <div class = "boxes">
             <div class = "box">
                 2022/03/17<br>
-                静岡大学情報学部を首席で卒業しました。<br>
+                静岡大学情報学部を首席で卒業し、学長表彰を頂きました。<br>
                 <div class = "boxbtn">
                     <a href="https://www.inf.shizuoka.ac.jp/news/detail.html?CN=154671">
                         <span>URL</span>
@@ -63,7 +102,7 @@
             </div>
             <div class = "box">
                 2021/03/17<br>
-                言語処理学会第28回年次大会(NLP2022)にて発表をしました。<br>
+                言語処理学会第28回年次大会(NLP2022)にて発表しました。<br>
                 <div class = "boxbtn">
                     <a href="https://www.anlp.jp/nlp2022/index.html">
                         <span>URL</span>
@@ -72,7 +111,7 @@
             </div>
             <div class = "box">
                 2021/12/24<br>
-                成績優秀者として表彰されました。<br>
+                成績優秀者として表彰され、四年後期の学費が免除されました。<br>
                 <div class = "boxbtn">
                     <a href="https://www.shizuoka.ac.jp/news/detail.html?CN=7777">
                         <span>URL</span>
@@ -90,7 +129,7 @@
             </div>
             <div class = "box">
                 2020/07/09<br>
-                成績優秀者として表彰されました。<br>
+                成績優秀者として表彰され、三年前期の学費が免除されました。<br>
                 <div class = "boxbtn">
                     <a href="https://www.shizuoka.ac.jp/news/detail.html?CN=6763">
                         <span>URL</span>
@@ -101,7 +140,7 @@
     </a>
     <a name="address">
         <h1>
-            連絡先
+            <div id="T_1_4"></div>
         </h1>
         <h3>
             静岡大学大学院総合技術研究科情報学専攻
