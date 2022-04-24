@@ -1,4 +1,4 @@
-var count = 0
+var count = 1
 var array = 
 [
     [ //T_0
@@ -35,7 +35,7 @@ var array =
         ["国際会議のワークショップCOLIEE2021にて査読付き論文の発表をしました。"," Presented a peer-reviewed paper at the international conference workshop COLIEE2021."],
         ["成績優秀者として表彰され、三年前期の学費が免除されました。"," I received an award for outstanding academic achievement and was exempted from paying tuition for the first semester of my third year."],
     ],[  //T_6
-        ["藤田真伎　ポートフォリオ","Maki Fujita Portfolio"],
+        ["藤田真伎　ポートフォリオ","Masaki Fujita Portfolio"],
         ["静岡大学大学院総合技術研究科情報学専攻","Department of Informatics, Graduate School of Integrated Arts and Sciences, Shizuoka University"],
     ]
 ]
