@@ -1,4 +1,4 @@
-var count = 1
+var count = 0
 var array = 
 [
     [ //T_0
@@ -50,11 +50,11 @@ function counter(){
     }
 }
 function onclick(count){
-    document.getElementById("Ja_En_btn").value = ["English","日本語"][count];
     for(let i=0;i < array.length;i++){
         for(let j=0;j < array[i].length;j++){
             let Str1 = "T_" + String(i) + "_" + String(j);
             document.getElementById(Str1).innerText = array[i][j][count];
         }
     }
+    document.getElementById("Ja_En_btn").value = ["English","日本語"][count];
 }
