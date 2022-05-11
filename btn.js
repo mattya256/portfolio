@@ -14,7 +14,7 @@ var array =
         ["ニュース","News"],
         ["連絡先","Mail"],
     ],[  //T_2
-        ["所属:静岡大学大学院操業科学技術研究科情報学専攻","Affiliation: Department of Informatics, Graduate School of Operational Science and Technology, Shizuoka University"],
+        ["所属:静岡大学大学院総合科学技術研究科情報学専攻","Affiliation: Department of Informatics, Graduate School of Operational Science and Technology, Shizuoka University"],
         ["学年:修士一年","Academic Year:Seminary Year"],
         ["配属:狩野研究室","Assignment: Kano Laboratory"],
         ["専門:自然言語処理、機械学習、テキスト分類","Expertise: Natural language processing, machine learning, text classification"],
