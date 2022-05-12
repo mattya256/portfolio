@@ -24,7 +24,7 @@ var array =
         ["2022/03 静岡大学情報学部情報科学科卒業","2022/03 Graduated from Shizuoka University, Faculty of Informatics, Department of Information Science"],
         ["2022/04 静岡大学大学院総合技術研究科情報学専攻入学","2022/04 Entered Shizuoka University, Graduate School of Integrated Arts and Sciences, Department of Informatics"],
     ],[  //T_4
-        ["静岡大学情報学部主席卒業","B.A. in Informatics, Shizuoka University, Shizuoka, Japan"],
+        ["静岡大学情報学部首席卒業","B.A. in Informatics, Shizuoka University, Shizuoka, Japan"],
         ["国際会議ワークショップ査読付き論文(第一著者1回,第三著者1回)","International conference workshop refereed papers (1st author, 3rd author)"],
         ["国内学会論文","Domestic Society Papers"],
         ["最高レート : 912","Maximum Rate : 912"],
