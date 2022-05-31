@@ -56,5 +56,5 @@ function onclick(count){
             document.getElementById(Str1).innerText = array[i][j][count];
         }
     }
-    document.getElementById("Ja_En_btn").value = ["English","日本語"][count];
+    document.getElementById("Ja_En_btn").value = ["English(DeepL)","日本語"][count];
 }
