@@ -22,13 +22,14 @@ var array =
         ["2018/03 静岡県立藤枝東高校卒業","2018/03 Graduated from Fujieda Higashi High School in Shizuoka Prefecture"],
         ["2022/04 静岡大学情報学部情報科学科入学","2022/04 Entered Shizuoka University, Faculty of Informatics, Department of Information Science"],
         ["2022/03 静岡大学情報学部情報科学科卒業","2022/03 Graduated from Shizuoka University, Faculty of Informatics, Department of Information Science"],
-        ["2022/04 静岡大学大学院総合技術研究科情報学専攻入学","2022/04 Entered Shizuoka University, Graduate School of Integrated Arts and Sciences, Department of Informatics"],
+        ["2022/04 静岡大学大学院総合科学技術研究科情報学専攻入学","2022/04 Entered Shizuoka University, Graduate School of Integrated Arts and Sciences, Department of Informatics"],
     ],[  //T_4
         ["静岡大学情報学部首席卒業","B.A. in Informatics, Shizuoka University, Shizuoka, Japan"],
-        ["国際会議ワークショップ査読付き論文(第一著者1回,第三著者1回)","International conference workshop refereed papers (1st author, 3rd author)"],
+        ["国際会議ワークショップ査読付き論文(第一著者2回,第三著者1回)","International conference workshop refereed papers (1st author, 3rd author)"],
         ["国内学会論文","Domestic Society Papers"],
-        ["最高レート : 1103","Maximum Rate : 1103"],
+        ["最高レート : 1149","Maximum Rate : 1149"],
     ],[  //T_5
+        ["国際会議のワークショップCOLIEE2022にて査読付き論文の発表をしました。タスク4で一位を達成しました。","I presented a peer-reviewed paper at the international conference workshop COLIEE2022. We achieved first place in Task 4."],  
         ["静岡大学情報学部を首席で卒業し、学長表彰を頂きました。","I graduated at the top of his class from Shizuoka University's Faculty of Informatics and received the President's Commendation."],
         ["言語処理学会第28回年次大会(NLP2022)にて発表しました。","Presented at the 28th Annual Conference of the Association for Natural Language Processing (NLP2022)."],
         ["成績優秀者として表彰され、四年後期の学費が免除されました。","I received an award for outstanding academic achievement and was exempted from paying tuition for the second semester of my fourth year."],
