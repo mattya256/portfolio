@@ -7,12 +7,14 @@ var array =
         ["実績","Track Record"],
         ["ニュース","News"],
         ["連絡先","Mail"],
+        ["インターン","Intern"],
     ],[ //T_1
         ["プロフィール","Profile"],
         ["経歴","Career"],
         ["実績","Track Record"],
         ["ニュース","News"],
         ["連絡先","Mail"],
+        ["インターン","Intern"],
     ],[  //T_2
         ["所属:静岡大学大学院総合科学技術研究科情報学専攻","Affiliation: Department of Informatics, Graduate School of Operational Science and Technology, Shizuoka University"],
         ["学年:修士一年","Academic Year:Seminary Year"],
@@ -27,7 +29,7 @@ var array =
         ["静岡大学情報学部首席卒業","B.A. in Informatics, Shizuoka University, Shizuoka, Japan"],
         ["国際会議ワークショップ査読付き論文(第一著者2回,第三著者1回)","International conference workshop refereed papers (1st author, 3rd author)"],
         ["国内学会論文","Domestic Society Papers"],
-        ["最高レート : 1149","Maximum Rate : 1149"],
+        ["最高レート : 1241","Maximum Rate : 1241"],
     ],[  //T_5
         ["国際会議のワークショップCOLIEE2022にて査読付き論文の発表をしました。タスク4で一位を達成しました。","I presented a peer-reviewed paper at the international conference workshop COLIEE2022. We achieved first place in Task 4."],  
         ["静岡大学情報学部を首席で卒業し、学長表彰を頂きました。","I graduated at the top of his class from Shizuoka University's Faculty of Informatics and received the President's Commendation."],
@@ -35,10 +37,17 @@ var array =
         ["成績優秀者として表彰され、四年後期の学費が免除されました。","I received an award for outstanding academic achievement and was exempted from paying tuition for the second semester of my fourth year."],
         ["国際会議のワークショップCOLIEE2021にて査読付き論文の発表をしました。"," Presented a peer-reviewed paper at the international conference workshop COLIEE2021."],
         ["成績優秀者として表彰され、三年前期の学費が免除されました。"," I received an award for outstanding academic achievement and was exempted from paying tuition for the first semester of my third year."],
+        ["AtCoderで水色レートを達成しました。","AtCoder achieved a light blue rate."],
     ],[  //T_6
         ["藤田真伎　ポートフォリオ","Masaki Fujita Portfolio"],
         ["静岡大学大学院総合技術研究科情報学専攻","Department of Informatics, Graduate School of Integrated Arts and Sciences, Shizuoka University"],
-    ]
+    ],[  //T_7
+    ["Yahoo株式会社 10days","Yahoo株式会社 10days"],
+    ["BIPROGY株式会社 5days","BIPROGY株式会社 5days"],
+    ["株式会社いい生活 5days","株式会社いい生活 5days"],
+    ["NTT東日本 5days","NTT東日本 5days"],
+    ["Cyber Agent 1month(11月予定)","Cyber Agent 1month(11月予定)"]
+]
 ]
 
 
@@ -54,6 +63,7 @@ function onclick(count){
     for(let i=0;i < array.length;i++){
         for(let j=0;j < array[i].length;j++){
             let Str1 = "T_" + String(i) + "_" + String(j);
+            console.log(Str1)
             document.getElementById(Str1).innerText = array[i][j][count];
         }
     }
